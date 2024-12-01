@@ -1,14 +1,14 @@
-import express from "express"
-import bodyParser from "body-parser"
-import mongoose from "mongoose"
-import userRouter from "./routers/userRouter.js"
-import galleryItemRouter from "./routers/galleryItemRouter.js"
-import jwt from "jsonwebtoken"
-import dotenv from "dotenv"
-import categoryRouter from "./routers/categoryRouter.js"
-import roomRouter from "./routers/roomRouter.js"
-import bookingRouter from "./routers/bookingRouter.js"
-import cors from "cors"
+import express from "express";
+import bodyParser from "body-parser";
+import mongoose from "mongoose";
+import userRouter from "./routes/userRouter.js";
+import galleryItemRouter from "./routes/galleryItemRouter.js";
+import jwt from "jsonwebtoken";
+import dotenv from "dotenv";
+import categoryRouter from "./routes/categoryRouter.js";
+import roomRouter from "./routes/roomRouter.js";
+import bookingRouter from "./routes/bookingRouter.js";
+import cors from "cors";
 dotenv.config()
 
 const app = express()
