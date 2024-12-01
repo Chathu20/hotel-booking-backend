@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
 
 
-//---------------------------Sign Up Function--------------------------
+//---------------------Sign Up Function--------------------------
 export function postUsers(req,res){            
     const user = req.body;
 
