@@ -1,6 +1,5 @@
 import Booking from "../models/booking.js";
 import { isCustomerValid } from "./userControllers.js";
-
 //-------------------New Booking Function--------------------
 export function createBooking(req, res){
 
